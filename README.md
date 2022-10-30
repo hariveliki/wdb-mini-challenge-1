@@ -1,6 +1,18 @@
 ## Introduction
 The idea of this API is to provide a way to store and retrieve product data.
 
+## Data structure
+{
+    "records": [
+        {
+            "id": "value",
+            "supplier": "value",
+            "supplier_sku": "value",
+            "ean": "value"
+        }
+    ]
+}
+
 ## HTTP Methods for RESTful Services
 
 ### GET
