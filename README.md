@@ -2,7 +2,7 @@
 The idea of this API is to provide a way to store and retrieve product data.
 
 ## Data structure
-{
+<pre {
     "records": [
         {
             "id": "value",
@@ -11,7 +11,7 @@ The idea of this API is to provide a way to store and retrieve product data.
             "ean": "value"
         }
     ]
-}
+} ></pre>
 
 ## HTTP Methods for RESTful Services
 
