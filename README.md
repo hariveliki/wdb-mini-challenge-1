@@ -50,18 +50,11 @@ url/api/v1/products/<product_id> -> Delete existing product <br />
  
 
 ## REST API vs GraphQL
-### Advantages
 
 | REST | GRAPHQL |
 |------|---------|
-|   sdafasdf   |         |
+|   Over- and underfetching   |    Specifiying exactly the data it needs     |
 |      |         |
 |      |         |
 
-### Disadvantages
 
-| REST | GRAPHQL |
-|------|---------|
-|      |         |
-|      |         |
-|      |         |
