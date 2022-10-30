@@ -53,8 +53,8 @@ url/api/v1/products/<product_id> -> Delete existing product <br />
 
 | REST | GRAPHQL |
 |------|---------|
-|   Over- and underfetching   |    Specifiying exactly the data it needs     |
-|   Caches automatically   |    Lacks built-in caching mechanism     |
+|   Problem with over- and underfetching   |    You specify exactly the data you need     |
+|   Caches automatically   |    Lacks with built-in caching mechanism     |
 |   Deployed over a set of URLs   |    Single endpoint     |
 | Multiple API versions | No API versions required|
 
