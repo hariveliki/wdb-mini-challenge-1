@@ -23,7 +23,7 @@ url/api/v1/products -> Get all existing products.
 
 ### POST
 url/api/v1/products -> Store new product. <br />
-Allowed data structure:
+Allowed data structure in body:
 ```json
 {
     "supplier": "value",
@@ -32,10 +32,12 @@ Allowed data structure:
 }
 ```
 
-
 ### PUT
-Add a new watchlist.
-<table><tr><th>Required Params</th><th>Login Required</th></tr><td>name</td><td>True</td></table>
+url/api/v1/products/<product_id> -> Update existing product <br />
+Allowed data structure in body:
+```json
+
+```
 
 ### DELETE
 Remove a watchlist.
