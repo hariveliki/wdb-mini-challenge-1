@@ -49,10 +49,19 @@ url/api/v1/products/<product_id> -> Delete existing product <br />
 
  
 
-## Why REST API vs GraphQL?
+## REST API vs GraphQL
+### Advantages
 
-| test    test2  |   |   |   |
-|-------|--------|---|---|---|
-| value | value2 |   |   |   |
-|       |        |   |   |   |
-|       |        |   |   |   |
+| REST | GRAPHQL |
+|------|---------|
+|      |         |
+|      |         |
+|      |         |
+
+### Disadvantages
+
+| REST | GRAPHQL |
+|------|---------|
+|      |         |
+|      |         |
+|      |         |
