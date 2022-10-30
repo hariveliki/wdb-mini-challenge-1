@@ -56,6 +56,6 @@ url/api/v1/products/<product_id> -> Delete existing product <br />
 |   Over- and underfetching   |    Specifiying exactly the data it needs     |
 |   Caches automatically   |    Lacks built-in caching mechanism     |
 |   Deployed over a set of URLs   |    Single endpoint     |
-| | |
+| Multiple API versions | No API versions required|
 
-
+I chose REST because it is a common standard for APIs.
