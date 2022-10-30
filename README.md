@@ -23,7 +23,7 @@ url/api/v1/products -> Get all existing products.
 
 ### POST
 <p> url/api/v1/products -> Store new product. <br>
-Allowed data structure:
+Allowed data structure: <br>
 ```json
 {
     "supplier": "value",
@@ -31,6 +31,7 @@ Allowed data structure:
     "ean": "value"
 }
 
+</pr>
 
 ### PUT
 Add a new watchlist.
