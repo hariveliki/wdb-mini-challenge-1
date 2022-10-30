@@ -7,63 +7,24 @@ The idea of this API is to provide a way to store and retrieve product data.
 ## HTTP Methods for RESTful Services
 
 ### GET
-url/api/v1/products
-Get all existing products.
+url/api/v1/products -> Get all existing products.
 
-### <code>GET:</code>/getlist
-Get a specific watchlist.
-<table><tr><th>Required Params</th><th>Login Required</th></tr><td>name</td><td>True</td></table>
+### POST
+url/api/v1/products -> Store new product.
+Allowed data structure:<\b>
+{
+    "supplier": "value",
+    "supplier_sku": "value",
+    "ean": "value"
+}
 
-### <code>POST:</code>/addlist
+### PUT
 Add a new watchlist.
 <table><tr><th>Required Params</th><th>Login Required</th></tr><td>name</td><td>True</td></table>
 
-### <code>DELETE:</code>/removelist
+### DELETE
 Remove a watchlist.
 <table><tr><th>Required Params</th><th>Login Required</th></tr><td>name</td><td>True</td></table>
 
-### <code>POST:</code>/additem
-Add an item to a watchlist.
-<table><tr><th>Required Params</th><th>Login Required</th></tr><td>name, item, amount</td><td>True</td></table>
-
-### <code>PUT:</code>/updateitem
-Update an item of a watchlist.
-<table><tr><th>Required Params</th><th>Login Required</th></tr><td>name, item, amount</td><td>True</td></table>
-
-### <code>DELETE:</code>/removeitem
-Remove an item from a watchlist.
-<table><tr><th>Required Params</th><th>Login Required</th></tr><td>name, item</td><td>True</td></table>
-
-### <code>POST:</code>/adduser
-Add a user.
-<table><tr><th>Required Params</th><th>Login Required</th></tr><td>user, password</td><td>False</td></table>
-
-### <code>POST:</code>/login
-Login a user.
-<table><tr><th>Required Params</th><th>Login Required</th></tr><td>user, password</td><td>False</td></table>
-
-### <code>GET:</code>/logout
-Logout a user.
-<table><tr><th>Required Params</th><th>Login Required</th></tr><td>None</td><td>True</td></table>
-
  
-## Error Response:
 
-
-  * **Code:** 400 BAD REQUEST <br />
-    **Content Example:** `{ Error : Missing required arguments }`
-
-  OR
-
-  * **Code:** 401 UNAUTHORIZED <br />
-    **Content:** `{ Error : "Invalid username or password" }`
-
-  OR
-   * **Code:** 404 NOT FOUND <br />
-    **Content:** `{ Error : ... }`
-
-
-## Unit Tests
-Windows: <code>python3 pytest</code>
-
-OS/Linux:<code> sh test.sh</code>
