@@ -6,7 +6,8 @@ The idea of this API is to provide a way to store and retrieve product data.
 
 ## HTTP Methods for RESTful Services
 
-### url/api/v1/products
+### GET
+url/api/v1/products
 Get all existing products.
 
 ### <code>GET:</code>/getlist
