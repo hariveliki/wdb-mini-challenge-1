@@ -22,7 +22,7 @@ The idea of this API is to provide a way to store and retrieve product data.
 url/api/v1/products -> Get all existing products.
 
 ### POST
-url/api/v1/products -> Store new product.
+url/api/v1/products -> Store new product. <br />
 Allowed data structure:
 ```json
 {
