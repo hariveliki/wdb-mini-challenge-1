@@ -36,12 +36,16 @@ Allowed data structure in body:
 url/api/v1/products/<product_id> -> Update existing product <br />
 Allowed data structure in body:
 ```json
-
+{
+    "supplier": "value",
+    "supplier_sku": "value",
+    "ean": "value"
+}
 ```
 
 ### DELETE
-Remove a watchlist.
-<table><tr><th>Required Params</th><th>Login Required</th></tr><td>name</td><td>True</td></table>
+url/api/v1/products/<product_id> -> Delete existing product <br />
+
 
  
 
