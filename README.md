@@ -30,7 +30,7 @@ Allowed data structure: <br> </pr>
     "supplier_sku": "value",
     "ean": "value"
 }
-
+```
 
 ### PUT
 Add a new watchlist.
