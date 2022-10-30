@@ -22,6 +22,8 @@ The idea of this API is to provide a way to store and retrieve product data.
 url/api/v1/products -> Get all existing products.
 
 ### POST
+url/api/v1/products -> Store new product.
+Allowed data structure:
 ```json
 {
     "supplier": "value",
@@ -29,15 +31,7 @@ url/api/v1/products -> Get all existing products.
     "ean": "value"
 }
 ```
-<p> url/api/v1/products -> Store new product. <br>
-Allowed data structure: <br> </pr>
-```json
-{
-    "supplier": "value",
-    "supplier_sku": "value",
-    "ean": "value"
-}
-```
+
 
 ### PUT
 Add a new watchlist.
