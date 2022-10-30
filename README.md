@@ -13,6 +13,7 @@ The idea of this API is to provide a way to store and retrieve product data.
         }
     ]
 }
+```
 
 
 ## HTTP Methods for RESTful Services
