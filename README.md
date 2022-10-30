@@ -54,7 +54,7 @@ url/api/v1/products/<product_id> -> Delete existing product <br />
 
 | REST | GRAPHQL |
 |------|---------|
-|      |         |
+|   sdafasdf   |         |
 |      |         |
 |      |         |
 
